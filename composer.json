@@ -1,0 +1,21 @@
+{
+  "name": "codemaxbr/api-centovacast",
+  "description": "API CentovaCast para PHP",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lucas Maia",
+      "email": "lucas.codemax@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.7",
+    "guzzlehttp/guzzle":"~6"
+  },
+  "autoload": {
+    "psr-0": {
+      "Codemax\\CentovaCast\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
